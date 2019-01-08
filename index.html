@@ -6,8 +6,7 @@
 <title>Snuff</title>
 <link rel = "stylesheet"
     type = "text/css"
-    href = "stylesheet_mainpage.css"/>
-<script src="sex_functions.js"></script>
+    href = "stylesheet_mainpage_iphone.css"/>
 </head>
 <body>
     <div class="snuffTitle">
@@ -19,20 +18,20 @@
 
     <div class="pick">
     <h2>Who is playing?</h2>    
-    </div>
+</div>
     <button class="buttonBoy" onclick="pickAction()">Boy</button>
     
     <div class="id">
-    <p id="demo"></p></div>
+        <p id="demo"></p></div>
 
- 
-<button class="buttonGirl" onclick="console.log(pickActionGirl())">Girl
-    </button>
+        
+        <button class="buttonGirl" onclick="console.log(pickActionGirl())">Girl
+            </button>
 
     <div class="id">
-    <p id="demoG"></p></div>
+        <p id="demoG"></p></div>
 
-    <script>
+        <script>
     function pickActionGirl() {
     let sexualActionArrayG = ['Eat Out', 'Finger', 'Make Out']
 	const randomIndexG = Math.floor(Math.random() * sexualActionArrayG.length - 1) +1
@@ -46,7 +45,7 @@
 <div class="id">
         <p id="demoNum"></p>Seconds</div>
 
-    <script>
+        <script>
     function pickNumber(){
     let sexualDurationArray = [5, 10, 15, 20];
     const randomDuration = Math.floor(Math.random() * sexualDurationArray.length - 1) + 1
@@ -55,7 +54,7 @@
     }
     </script>
 
+<script src="sex_functions.js"></script>
 </body>
-
 
 </html>
