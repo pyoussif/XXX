@@ -250,6 +250,10 @@ img {
 	border-left-color: #252525;
 	border-right-color: #212121;
 	border-bottom-color: #252525;
+	background-color: rgb(140,0,255);
+	background:
+		radial-gradient(120% 150%, rgb(140,0,255), black)
+
 }
 
 .phone .screen:after {
@@ -290,8 +294,8 @@ img {
 
 body {
     background:
-     rgb(140, 0, 255)
-     radial-gradient(150% 150%, rgb(140,0,255), black)
+     rgb(165, 48, 165)
+     radial-gradient(50% 150%, rgb(165,48,165), black)
     }
 
     
@@ -410,7 +414,9 @@ body {
     left: 0;
     bottom: 0px;
     width: 100%;
-    background-color: rgb(149, 21, 253);
+	background-color: rgb(149, 21, 253);
+	background:
+		radial-gradient(50% 150%, rgb(149,21,253), black)
     color: white;
     text-align: center;
     font-size: 25px;
