@@ -4,6 +4,8 @@ html, body, h1, h2, h3, h4, h5, ul, li, figure, p, iframe {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	box-sizing: border-box;
+	margin-top: 10px;
+
 }
 
 *, *:before, *:after {
@@ -12,6 +14,7 @@ html, body, h1, h2, h3, h4, h5, ul, li, figure, p, iframe {
 
 .phone:after, .phone .camera:before, .phone .camera:after, .phone .screen, .phone .screen:after, .phone .top div, .phone .camera, .phone .speaker:after, .phone .bottom div, .phone .bottom:before, .phone .bottom:after, .iphone .side-buttons div, .iphone:before, .iphone .side-buttons:before, .iphone .side-buttons:after, .phone:before, .phone .top:after, .phone .bottom div:before, .iphone .side-buttons, .phone, .phone .top, .phone .bottom, .phone .speaker {
 	position: absolute;
+
 }
 
 .phone:after, .phone .camera:before, .phone .camera:after, .phone .screen, .phone .screen:after, .phone .top div, .phone .camera, .phone .speaker:after, .phone .bottom div, .phone .bottom:before, .phone .bottom:after, .iphone .side-buttons div {
@@ -90,6 +93,7 @@ img {
 	right: 0px;
 	width: 278px;
 	height: 588px;
+
 }
 
 .phone:before {
@@ -97,6 +101,7 @@ img {
 	height: 100%;
 	border: 20px solid #1d1d1d;
 	border-radius: 40px;
+
 }
 
 .phone:after {
@@ -415,15 +420,27 @@ body {
     bottom: 0px;
     width: 100%;
 	background-color: rgb(149, 21, 253);
-	background:
-		radial-gradient(50% 150%, rgb(149,21,253), black)
     color: white;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
+.headerme{
+	position: fixed;
+    top: 0px;
+    width: 100%;
+	background-color: rgb(149, 21, 253);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+	
+}
 .logo {
     text-decoration: none;
     font-style: italic;
