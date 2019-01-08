@@ -6,68 +6,58 @@
 <title>Snuff</landpage></title>
 <link rel = "stylesheet"
     type = "text/css"
-    href = "C:\Users\Patrick\Desktop\Sex App\stylesheet_mainpage_iphone.css"/>
-<script src="C:\Users\Patrick\Desktop\Sex App\sex_functions.js"></script>
+    href = "stylesheet_mainpage.css"/>
+<script src="sex_functions.js"></script>
 </head>
 <body>
+    <div class="snuffTitle">
+        <h1>XXX
+            <break></break>
 
-        
-    
-<div class="iphone">
-
-    <div class="side-buttons"><div></div>
-        </div>
-      
-        <div class="phone">
-          <div class="top">
-            <div>
-              <span class="camera"></span>
-              <span class="speaker"></span>
-            </div>
-          </div>
-          
-          <div class="screen">
-
-                <div class="snuffTitle">
-                        <h1>XXX</h1>
-                </div>
-                
-                    <div class="pick">
-                    <h2>Whose Turn?</h2>    
-                    </div>
-
-                <button class="buttonBoy" onclick="pickAction()">Boy</button>
-                    
-                    <div class="id">
-                    <p id="demo"></p></div>
-                
-                <button id="buttonNum" class="buttonGirl" onclick="pickActionGirl()">Girl</button>
-                
-                    <div class="id">
-                    <p id="demoG"></p></div>
-                <button id="buttonNumber" onclick="clock()">Start Timer</button>
-
-                
-              
-                        
-            
-                
-                
-          </div>
-        <div class="bottom">
-                <div class="idtim">
-                <p id="demot"></p></div>
-            
-        
-          </div>
-        </div>
+        </h1>
     </div>
-    
-    <div class="footer">
-            <a href="#default" class="logo">Snuff</a>
+
+    <div class="pick">
+    <h2>Who is playing?</h2>    
     </div>
-    </body>
+    <button class="buttonBoy" onclick="pickAction()">Boy</button>
+    
+    <div class="id">
+    <p id="demo"></p></div>
+
+ 
+<button class="buttonGirl" onclick="console.log(pickActionGirl())">Girl
+    </button>
+
+    <div class="id">
+    <p id="demoG"></p></div>
+
+    <script>
+    function pickActionGirl() {
+    let sexualActionArrayG = ['Eat Out', 'Finger', 'Make Out']
+	const randomIndexG = Math.floor(Math.random() * sexualActionArrayG.length - 1) +1
+	const sexualActionG = sexualActionArrayG[randomIndexG]
+    document.getElementById("demoG").innerHTML = sexualActionG;
+    }
+    </script>
+
+<button class="buttonNumber" onclick="console.log(pickNumber())">How Long?</button>
+
+<div class="id">
+        <p id="demoNum"></p>Seconds</div>
+
+    <script>
+    function pickNumber(){
+    let sexualDurationArray = [5, 10, 15, 20];
+    const randomDuration = Math.floor(Math.random() * sexualDurationArray.length - 1) + 1
+    const sexualNumAction = sexualDurationArray[randomDuration]
+    document.getElementById("demoNum").innerHTML = sexualNumAction;
+    }
+    </script>
+
+</body>
+
+border-bottom-color: #252525;
 
 
-
-    </html>
+</html>
