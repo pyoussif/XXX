@@ -248,8 +248,8 @@ img {
 	border: 3px solid;
 	border-top-color: #252525;
 	border-left-color: #252525;
-    border-right-color: #212121;
-    border-bottom-color: #252525;
+	border-right-color: #212121;
+	border-bottom-color: #252525;
 }
 
 .phone .screen:after {
@@ -259,11 +259,22 @@ img {
 	border: 2px solid #000;
 	border-radius: 3px;
 }
+
+
+
+
+
+
+
+
+
 .snuffTitle {
     color: rgb(255, 61, 61);
     font-size: 40px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 0 rgb(20, 20, 20), 0 1px black, 10px 0 black, 0 0px black;
+
 }
 
 .pick{
@@ -273,6 +284,8 @@ img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 15px;
     position: relative;
+    text-shadow: 2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 body {
@@ -280,6 +293,7 @@ body {
      rgb(140, 0, 255)
      radial-gradient(150% 150%, rgb(140,0,255), black)
     }
+
     
 .buttonBoy {
  margin-left: auto;
@@ -287,7 +301,8 @@ body {
  display: block;    
  color: rgb(53, 133, 207);
  background-color: black;
- border: none;
+ border: solid;
+ border-color: rgb(53, 133, 207);
  padding: 10px 20px;
  text-align: center;
  text-decoration: none;
@@ -298,6 +313,7 @@ body {
  z-index: 5;
  position: relative;
  cursor: pointer;
+ outline-color: rgb(53, 133, 207);
 
 }
 
@@ -308,7 +324,8 @@ body {
     display: block;    
     color: rgb(226, 118, 226);
     background-color: black;
-    border: none;
+    border: solid;
+    border-color: rgb(226,118,226);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -319,16 +336,20 @@ body {
     z-index: 5;
     position: relative;
     cursor: pointer;
+    outline-color: rgb(226,118,226);
+
+
    }
 
-   .buttonNumber {
+   #buttonNumber {
     margin-left: auto;
     margin-right: auto;  
     margin-top: 20px; 
     display: block;    
     color: whitesmoke;
-    background-color: rgb(255, 61, 61);
-    border: none;
+    background-color: rgb(204, 39, 39);
+    border: solid;
+    border-color: whitesmoke;
     padding: 5px 16px;
     text-align: center;
     text-decoration: none;
@@ -340,6 +361,8 @@ body {
     z-index: 5;
     position: relative;
     cursor: pointer;
+    outline: 0;
+
    }
 
    .id{
@@ -348,13 +371,26 @@ body {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10px;
-    
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   }
+
+   .idtim{
+  
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 10px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     
    }
    .snuff{
        font-size: 20px;
    }
 
+   .hidden {
+       visibility: hidden;
+   }
 
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
@@ -388,4 +424,6 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     bottom: 20px;
+    text-shadow: 10px black, 0px black, 0 10px black, 0 10px black;
+
 }
