@@ -349,7 +349,7 @@ body {
     color: whitesmoke;
     background-color: rgb(204, 39, 39);
     border: solid;
-    border-color: whitesmoke;
+    border-color: rgba(0,0,0,0.24);
     padding: 5px 16px;
     text-align: center;
     text-decoration: none;
