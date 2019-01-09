@@ -465,3 +465,7 @@ body {
     text-shadow: 10px black, 0px black, 0 10px black, 0 10px black;
 
 }
+
+.instruction_photo {
+	z-index: 10;
+}
