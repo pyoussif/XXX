@@ -464,6 +464,15 @@ body {
 	text-align: center;
 				  }
 
+				  .logopicupper2 {
+					width: 200px;
+					height: 40px;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					text-align: center;
+								  }
+
 .headerme{
 	position: relative;
 	top: 0;
