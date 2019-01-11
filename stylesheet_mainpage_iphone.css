@@ -450,9 +450,9 @@ body {
 
 .headerme{
 	position: fixed;
+	background-color: rgb(149, 21, 253);
     top: 0px;
     width: 100%;
-	background-color: rgb(149, 21, 253);
     color: white;
     text-align: center;
     font-size: 25px;
@@ -486,5 +486,4 @@ body {
 	width: 350px;
 	height: 591px;
 	border-color: rgb(26, 26, 26);
-	border: 15px solid; 
 }
