@@ -422,45 +422,51 @@ body {
 
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
+ 
+  
+  .footer {
+	  position: fixed;
+	  left: 0px;
+	  bottom: -10px;
+	  width: 100%;
+	  color: white;
+	  text-align: center;
+	  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	  
+	  
+	}
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0px;
-    width: 100%;
-	background-color: rgb(149, 21, 253);
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.logopicbottom {
+	width: 300px;
+	height: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 15px;
+		  }
 
-
-}
+.logopicupper {
+	width: 300px;
+	height: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+				  }
 
 .headerme{
 	position: fixed;
-	background-color: rgb(149, 21, 253);
-    top: 0px;
-    width: 100%;
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+	top: 0;
+	width: 100%;
+	height: 50%;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	z-index: 6;
 	
 	
 }
+
+
 .logo {
     text-decoration: none;
     font-style: italic;
@@ -485,5 +491,4 @@ body {
 	margin: 30px auto;
 	width: 350px;
 	height: 591px;
-	border-color: rgb(26, 26, 26);
 }
