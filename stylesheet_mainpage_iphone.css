@@ -508,5 +508,6 @@ body {
 	position: relative;
 	margin: 30px auto;
 	width: 350px;
-	height: 591px;
+	height: auto;
+	border: 12px dashed black; 
 }
