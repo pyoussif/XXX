@@ -42,17 +42,17 @@ function clock() {
     const randomDuration = Math.floor(Math.random() * sexualDurationArray.length - 1) + 1
     var c = sexualDurationArray[randomDuration];
     document.getElementById("buttonNumber").disabled = true;
-         
-
+    
     
     var myTimer = setInterval(myClock, 1000);
-
+    
     function myClock() {
-      document.getElementById("demot").innerHTML = --c;
-      if (c === 0) {
+        document.getElementById("demot").innerHTML = --c;
+        if (c === 0) {
           console.log(c);
-          clearInterval(myTimer);
+          clearInterval(myTimer);          
           document.getElementById("buttonNumber").disabled = false;
+          document.getElementById("MySound").play();
         }
   }
 };
