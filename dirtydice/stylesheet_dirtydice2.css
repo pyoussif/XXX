@@ -19,12 +19,12 @@ body {
     background:
         rgb(39, 4, 85)
         radial-gradient(75% 150%, rgb(39,4,85), black);
-    box-sizing: border-box;
+}
 
-    
 
-  }
-  
+
+
+
 .headerme{
 	position: relative;
 	top: 0;
@@ -130,7 +130,7 @@ margin-left: auto;
 	letter-spacing: 2px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     font-family: 'Impact', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 100%;
+    width: 25%;
     z-index: 5;
     position: relative;
 	cursor: pointer;
@@ -153,6 +153,7 @@ margin-left: auto;
   
   #cube2 {
     position:relative;
+    margin:50px auto;
     transform-style: preserve-3d;
     transition: transform .5s;
     width: 100%;
@@ -160,6 +161,7 @@ margin-left: auto;
   }
   
   #cube2 div {
+    margin:50px auto;
     border:2px solid rgb(238, 82, 238);
     border-radius:50px;
     width:198px;
@@ -340,6 +342,8 @@ p {
 
 }
 
+
+
 @media only screen and (max-width: 700px) {
 
 
@@ -432,5 +436,8 @@ p {
 		display: block;
 
     }}
+
+
+*/
 
 
