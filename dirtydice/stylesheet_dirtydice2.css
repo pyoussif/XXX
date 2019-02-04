@@ -36,8 +36,8 @@ body {
 }
 
 .logopicupper {
-	width: 300px;
-	height: 100px;
+	width: 400px;
+	height: 150px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -91,7 +91,8 @@ body {
   #cube.show6 { transform: translateZ( -100px ) rotateX(   90deg ); }
 
 #buttonStart {
-margin-left: auto;
+ border-radius: 5px;
+ margin-left: auto;
  margin-right: auto;   
  display: block;    
  color: black;
@@ -104,7 +105,7 @@ margin-left: auto;
  font-size: 25px;
  font-family: 'Impact', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  letter-spacing: 2px;
- box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ box-shadow: 0px 5px 0px 0px rgb(black);
  width: 200px;
  z-index: 5;
  position: relative;
@@ -113,8 +114,18 @@ margin-left: auto;
  text-rendering: optimizeLegibility !important; -webkit-font-smoothing: antialiased !important;
 }
 
+#buttonStart:active {
+     transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+  color: whitesmoke;
+  background-color: rgb(165,45,165);
+}
+
 
 #buttonStartTwo {
+    
+    border-radius: 5px;
     margin-left: auto;
     margin-right: auto;  
     margin-top: 40px; 
@@ -138,6 +149,13 @@ margin-left: auto;
 	text-rendering: optimizeLegibility !important; -webkit-font-smoothing: antialiased !important;
 }
 
+#buttonStartTwo:active {
+     transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+  color: whitesmoke;
+  background-color: rgb(165,45,165);
+}
 
 #container2 {
     position: relative;
