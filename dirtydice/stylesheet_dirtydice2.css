@@ -39,8 +39,8 @@ body {
 }
 
 .logopicupper {
-	width: 400px;
-	height: 150px;
+	width: 350px;
+	height: 100px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -459,5 +459,24 @@ p {
     }}
 
 
-
-
+  .footer {
+	  position: relative;
+	  left: 0px;
+	  bottom: -10px;
+	  width: 100%;
+	  color: white;
+	  text-align: center;
+	  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	  
+	  
+    }
+    
+    .logopicbottom {
+	width: 300px;
+	height: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 15px;
+		  }
