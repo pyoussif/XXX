@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
  
 html, body, h1, h2, h3, h4, h5, ul, li, figure, p, iframe {
@@ -279,12 +280,13 @@ img {
 
 
 
-.snuffTitle {
+#snuffTitle {
     color: rgb(255, 61, 61);
     font-size: 40px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 5px 0 rgb(20, 20, 20), 0 1px black, 10px 0 black, 0 0px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Open Sans', Arial, sans-serif;
+	text-shadow: 5px 0 rgb(20, 20, 20), 0 1px black, 10px 0 black, 0 0px black;
+	margin-top: -25px;
 
 }
 
@@ -296,7 +298,7 @@ img {
     margin-bottom: 15px;
     position: relative;
     text-shadow: 2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
+	margin-top: -20px;
 }
 
 body {
@@ -318,7 +320,7 @@ body {
  text-align: center;
  text-decoration: none;
  font-size: 25px;
- font-family: 'Impact', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-family: 'Impact', 'Franklin Gothic Medium', 'Open Sans', 'Arial Narrow', Arial, sans-serif;
  letter-spacing: 2px;
  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
  width: 50%;
@@ -346,7 +348,7 @@ body {
     font-size: 25px;
 	letter-spacing: 2px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    font-family: 'Impact', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Impact', 'Franklin Gothic Medium', 'Open Sans', 'Arial Narrow', Arial, sans-serif;
     width: 50%;
     z-index: 5;
     position: relative;
@@ -374,7 +376,7 @@ body {
 	text-shadow: none;
 	text-rendering: optimizeLegibility !important; -webkit-font-smoothing: antialiased !important;
 	font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Open Sans', Arial, sans-serif;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     width: 60%;
     border-radius: 20px;
@@ -405,7 +407,7 @@ body {
         text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-		margin-top: 485px;
+		margin-top: 470px;
     
    }
 
@@ -705,6 +707,12 @@ p {
 	text-align: center;
 	margin-bottom: 15px;
 		  }
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+}
 
 .logopicupper {
 	width: 300px;
