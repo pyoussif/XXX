@@ -141,7 +141,7 @@ body {
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;  
-    margin-top: 40px; 
+    margin-top: 60px; 
     display: block;    
     color: black;
     background-color: whitesmoke;
@@ -184,7 +184,7 @@ body {
   
   #cube2 {
     position:relative;
-    margin:50px auto;
+    margin:55px auto;
     transform-style: preserve-3d;
     transition: transform .5s;
     width: 100%;
@@ -219,7 +219,7 @@ body {
   #cube2.show6 { transform: translateZ( -100px ) rotateX(   90deg ); }
 
   img {
-    margin-top: 20px;  
+    margin-top: 25px;  
     max-width: 100%;
       max-height: 100%;
       height: auto;
