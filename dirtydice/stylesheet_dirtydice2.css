@@ -287,11 +287,11 @@ nav {
 	display: hidden;
 	width: 40px;
 	height: 40px;
-    background:  url(favicon.png) center;
     transition: all .2s ease-in-out;
-
-
 }
+  
+
+
 
 a:hover#menu-icon {
 
@@ -335,7 +335,7 @@ li {
 }
 
 .contact {
-    color: grey;
+    color: rgb(255, 0, 170);
 }
 .contact:hover {
     font-size: 140%;
@@ -382,9 +382,9 @@ p {
 #inst_photo {
     margin-top: 20px;
     height: auto;
-    width: 28em;
+    width: 25em;
     position: relative;
-    margin: 30px auto;
+    margin: 1px auto;
     height: auto;
 }
 @media only screen and (max-width: 700px) {
@@ -401,6 +401,18 @@ p {
 		display:inline-block;
 
 	}
+
+      .bar {
+    width: 40px;
+    height: 8px;
+    background: #fff;
+    box-shadow: 1px 1px 3px RGBa(0, 0, 0, 0.4);
+    border-radius: 2px;
+    transition: 0.4s ease;
+    padding-bottom:1px;
+    margin-top: 5px;
+   
+    }
 
 	nav ul, nav:active ul { 
 

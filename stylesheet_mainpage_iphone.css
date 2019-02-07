@@ -493,7 +493,6 @@ nav {
 	display: hidden;
 	width: 40px;
 	height: 40px;
-    background:  url(favicon.png) center;
     transition: all .2s ease-in-out;
 
 
@@ -541,7 +540,7 @@ li {
 }
 
 .contact {
-    color: grey;
+    color: rgb(255, 0, 170);
 }
 .contact:hover {
     font-size: 140%;
@@ -596,6 +595,18 @@ p {
 
 	}
 
+	   .bar {
+    width: 40px;
+    height: 8px;
+    background: #fff;
+    box-shadow: 1px 1px 3px RGBa(0, 0, 0, 0.4);
+    border-radius: 2px;
+    transition: 0.4s ease;
+    padding-bottom:1px;
+    margin-top: 5px;
+   
+	}
+	
 	nav ul, nav:active ul { 
 
 		display: none;
