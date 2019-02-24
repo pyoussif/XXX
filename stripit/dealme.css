@@ -301,22 +301,30 @@ body {
 
 .card__front.spades {
     color: #ff00dc;
+    background-image: url("spade.png");
+    background-size: 2em;
 }
 
 .card__front.clubs {
     color: #ff00dc;
+    background-image: url("clubs.png");
+    background-size: 2em;
 
 }
 
 
 .card__front.diamonds {
     color: whitesmoke;    
+    background-image: url("diamond.png");
+    background-size: 2em;    
     
 
 }
 
 .card__front.hearts {
     color: whitesmoke;    
+    background-image: url("paddle.png");
+    background-size: 2em;
 }
 
 .card__front.spades::before {
@@ -445,5 +453,27 @@ body {
 	transform: rotate(0deg);
 }
 
+.card__front.spades {
+    color: #ff00dc;
+    
+}
 
+.card__front.clubs {
+    color: #ff00dc;
+   
+
+}
+
+
+.card__front.diamonds {
+    color: whitesmoke;    
+     
+    
+
+}
+
+.card__front.hearts {
+    color: whitesmoke;    
+   
+}
 }
