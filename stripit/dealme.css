@@ -301,30 +301,22 @@ body {
 
 .card__front.spades {
     color: #ff00dc;
-    background-image: url("spade.png");
-    background-size: 2em;
 }
 
 .card__front.clubs {
     color: #ff00dc;
-    background-image: url("clubs.png");
-    background-size: 2em;
 
 }
 
 
 .card__front.diamonds {
     color: whitesmoke;    
-    background-image: url("diamond.png");
-    background-size: 2em;    
     
 
 }
 
 .card__front.hearts {
     color: whitesmoke;    
-    background-image: url("paddle.png");
-    background-size: 2em;
 }
 
 .card__front.spades::before {
@@ -446,7 +438,7 @@ body {
 	padding-left: 8px;
 	border: 3px solid currentcolor;
 	background-color: #140814;
-    font-size: 1.5em;
+    font-size: 20px;
     font-weight: bold;
 	text-align: left;
 	-webkit-transform: rotate(0deg);
