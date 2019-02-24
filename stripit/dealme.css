@@ -1,0 +1,454 @@
+* { box-sizing: border-box; }
+
+.headerme{
+	position: relative;
+	top: 0;
+	width: 100%;
+	font-family: 'Franklin Gothic Medium','Anton', 'Open Sans', 'Open Sans', Arial, sans-serif;
+    z-index: 6;
+    margin-top: 100px;
+}
+
+.logopicupper {
+	width: 350px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+}
+
+.logopicupper2 {
+					width: 130px;
+					height: 80px;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+                    text-align: center;
+                    margin-top: -30px;
+                    margin-bottom: 20px;
+                                  }
+                                  
+header {
+
+	background: rgb(165,45,165) radial-gradient(125% 150%, rgb(165,45,165), black);
+
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 4px solid black;
+    z-index: 100;
+            
+
+
+}
+
+  a {
+
+	color: whitesmoke;
+	text-decoration: none;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+}
+
+a:hover {
+
+    color: rgb(39,4,85);
+
+}
+
+#logo{
+
+	float: left;
+	width: 300px;
+	height: 60px;
+	background: url(../img/logo.png) no-repeat center;
+	display: block;
+
+}
+img {
+    margin-top: 10px;  
+    max-width: 100%;
+      max-height: 100%;
+      height: auto;
+  }
+
+nav {
+
+	float: right;
+	padding: 20px;	
+
+}
+
+#menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+    transition: all .2s ease-in-out;
+}
+  
+
+
+
+a:hover#menu-icon {
+
+	background-color: rgb(39,4,85);
+    border-radius: 4px 4px 0 0;
+    transform: scale(1.5);
+
+}
+
+ul {
+
+    list-style: none;
+    margin-top: -6.5px;
+
+}
+
+li {
+
+	display: inline-block;
+	float: none;
+    padding: 10px;
+    font-family: 'Impact', 'Franklin Gothic Medium', 'Anton', 'Open Sans', Arial, sans-serif;
+    color: whitesmoke;
+
+
+}
+
+.teaseme {
+    font-size: 20px;
+}
+.teaseme:hover {
+    font-size: 140%;
+    
+}
+
+.dirtydice {
+    font-size: 20px;
+}
+.dirtydice:hover {
+    font-size: 140%;
+}
+
+.contact {
+    color: rgb(255, 0, 170);
+}
+.contact:hover {
+    font-size: 140%;
+}
+
+
+.current {
+
+	color: whitesmoke;
+
+}
+.btn {
+	margin-bottom: 16px;
+	padding: 8px 24px;
+	background-color: rgb(236, 20, 20);
+	border: 1px solid rgb(179, 4, 4);
+	border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	cursor: pointer;
+	-webkit-transition: background 0.3s, color 0.3s;
+	transition: background 0.3s, color 0.3s;
+}
+
+.btn--hit {
+    margin-right: 16px;
+    background-color: green;
+    border: 5px solid rgb(2, 80, 2);
+    font-weight: bold; 
+}
+
+.btn:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+.container {
+    position: fixed;
+    margin-top: 10px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(39, 4, 85);
+    overflow-y: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+    background-color: rgb(39, 4, 85);
+}
+
+.table {
+	position: relative;
+	display: inline-block;
+	margin: 16px auto;
+	margin-left: 50%;
+	text-align: center;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-perspective: 100vw;
+	perspective: 100vw;
+}
+
+.table__dealer,
+.table__user {
+	position: relative;
+	margin-bottom: 16px;
+	padding: 24px;
+}
+
+.table__dealer::before,
+.table__user::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	font-size: 1.5em;
+	letter-spacing: 8px;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.table__dealer::before {
+	content: '';
+}
+
+.table__user::before {
+	content: '';
+}
+
+.card {
+	position: relative;
+	display: inline-block;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	width: 15vw;
+	height: 20vw;
+	max-width: 21vh;
+	max-height: 28vh;
+}
+
+.card__front,
+.card__back {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 1vw;
+	backface-visibility: hidden;
+	-webkit-transition: 1s transform;
+	transition: 1s transform;
+}
+
+.card__back.prePlay {
+	transform: rotateY(0deg);	
+}
+
+.card__back {
+	background-color: rgb(230, 65, 230);
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+
+.card__back::after {
+	content: '';
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	border: 1px solid #fff;
+	border-radius: 1vw;
+}
+
+.card__front.prePlay {
+	-webkit-transform: rotateY(180deg);	
+	transform: rotateY(180deg);	
+}
+
+.card__front {
+	padding-top: 2px;
+	padding-left: 8px;
+	border: 3px solid currentcolor;
+	background-color: #140814;
+    font-size: 75px;
+    font-weight: bold;
+	text-align: left;
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+.card__front.spades {
+    color: #ff00dc;
+    background-image: url("spade.png");
+    background-size: 2em;
+}
+
+.card__front.clubs {
+    color: #ff00dc;
+    background-image: url("clubs.png");
+    background-size: 2em;
+
+}
+
+
+.card__front.diamonds {
+    color: whitesmoke;    
+    background-image: url("diamond.png");
+    background-size: 2em;    
+    
+
+}
+
+.card__front.hearts {
+    color: whitesmoke;    
+    background-image: url("paddle.png");
+    background-size: 2em;
+}
+
+.card__front.spades::before {
+	content: '\2660';
+}
+
+.card__front.clubs::before {
+	content: '\2663';
+}
+
+.card__front.diamonds::before {
+	content: '\2666';
+}
+
+.card__front.hearts::before {
+	content: '\2665'; 
+}
+
+.gameover {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(24, 24, 32, 0.9);
+}
+
+.gameover.active {
+	display: block;
+}
+
+.gameover__msg {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.gameover__msg::before {
+	content: attr(data-msg);
+	position: relative;
+	display: block;
+	width: 100%;
+	margin-bottom: 8px;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.btn--reset {
+	margin: 0;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+	header {
+
+		position: absolute;
+
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+      .bar {
+    width: 40px;
+    height: 8px;
+    background: #fff;
+    box-shadow: 1px 1px 3px RGBa(0, 0, 0, 0.4);
+    border-radius: 2px;
+    transition: 0.4s ease;
+    padding-bottom:1px;
+    margin-top: 5px;
+   
+    }
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: rgb(165,45,165);
+		border: 5px solid rgb(39,4,85);
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+    }
+
+.card__front {
+	padding-top: 2px;
+	padding-left: 8px;
+	border: 3px solid currentcolor;
+	background-color: #140814;
+    font-size: 1.7em;
+    font-weight: bold;
+	text-align: left;
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+
+}
