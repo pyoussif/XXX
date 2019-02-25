@@ -268,7 +268,7 @@ header {
 #logo{
 
 	float: left;
-	width: 300px;
+	width: 240px;
 	height: 60px;
 	background: url(../img/logo.png) no-repeat center;
 	display: block;
@@ -285,7 +285,7 @@ nav {
 #menu-icon {
 
 	display: hidden;
-	width: 30px;
+	width: 40px;
 	height: 40px;
     transition: all .2s ease-in-out;
 }
@@ -304,7 +304,7 @@ a:hover#menu-icon {
 ul {
 
     list-style: none;
-    margin-top: -10px;
+    margin-top: -6.5px;
 
 }
 
