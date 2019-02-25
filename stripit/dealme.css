@@ -184,7 +184,6 @@ body {
 .table__dealer,
 .table__user {
 	position: relative;
-	margin-bottom: 16px;
 	padding: 10px;
 }
 
@@ -400,6 +399,13 @@ body {
 	nav:hover ul {
 display: block;
     }
+
+	.btn--hit {
+	margin-right: 0px;
+	background-color: green;
+    border: 5px solid rgb(2, 80, 2);
+    font-weight: bold; 
+}
 
 .card__front {
 	padding-top: 2px;
