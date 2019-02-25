@@ -285,7 +285,7 @@ nav {
 #menu-icon {
 
 	display: hidden;
-	width: 40px;
+	width: 30px;
 	height: 40px;
     transition: all .2s ease-in-out;
 }
