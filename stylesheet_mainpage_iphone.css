@@ -754,6 +754,7 @@ p {
 	height: 50%;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	z-index: 6;
+	margin-bottom:-30px;
 	
 	
 }
