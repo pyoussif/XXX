@@ -107,7 +107,7 @@ evaluate = (type) => {
                 if (values.user > values.dealer) {
                     gameOver('You Win! Make Someone Strip!', '#0f8');
                 } else if (values.user == values.dealer) {
-                    gameOver('\'Twas a Draw! Everyone Strips!', '#80f');
+                    gameOver('\'Draw! Everyone Strips!', '#80f');
                 } else {
                     gameOver('Dealer Wins - STRIP!', '#f06');
                 }
