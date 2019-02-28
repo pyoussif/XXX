@@ -304,7 +304,7 @@ img {
 body {
     background:
      rgb(165, 48, 165)
-	 radial-gradient(75% 150%, rgb(165,48,165), black);
+	 radial-gradient(75% 150%, rgb(83,0,151), black);
 	font-family: 'Impact', 'Franklin Gothic Medium', 'Open Sans', 'Arial Narrow', Arial, sans-serif;
 
     }
