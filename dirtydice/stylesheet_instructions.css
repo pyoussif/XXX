@@ -15,7 +15,6 @@ body {
 
 
 .headerme{
-	position: absolute;
 	top: 0;
 	height: 50%;
 	font-family: 'Franklin Gothic Medium','Anton', 'Open Sans', 'Open Sans', Arial, sans-serif;
@@ -215,6 +214,18 @@ p {
     height: 40px;
     margin-top: -20px;
 }
+#inst_photo {
+    margin-top: 20px;
+    height: auto;
+    width: 22em;
+    position: relative;
+    margin: 1px auto;
+    height: auto;
+    margin-top: 0px;
+
+}
+
+@media only screen and (max-width: 700px) {
 
 #inst_photo {
     margin-top: 20px;
@@ -224,9 +235,6 @@ p {
     margin: 1px auto;
     height: auto;
 }
-@media only screen and (max-width: 700px) {
-
-
 	header {
 
 		position: absolute;
@@ -284,7 +292,14 @@ p {
 @media only screen and (max-device-width: 699px) {
 
 
-
+#inst_photo {
+    margin-top: 20px;
+    height: auto;
+    width: 22em;
+    position: relative;
+    margin: 1px auto;
+    height: auto;
+}
 
 
 
