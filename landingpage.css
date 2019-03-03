@@ -31,7 +31,8 @@
     text-align: center;
     margin-top: 100px;
     border: solid;
-    background-color: rgb(198,50,198);
+    background-color: rgb(223, 108, 192);
+
     margin-bottom: 30px;
     border-radius:15px;
     padding-bottom: 32px;
@@ -43,8 +44,8 @@
 @keyframes glowing {
   0% { box-shadow: 0 0 -10px #c4a300; }
   40% { box-shadow: 0 0 40px #be00c4; }
-  60% { box-shadow: 0 0 40px #c4a300; }
-  100% { box-shadow: 0 0 -10px #c4a300; }
+  60% { box-shadow: 0 0 40px #c40021; }
+  100% { box-shadow: 0 0 -10px #be00c4; }
 }
 
 #tease {
@@ -64,7 +65,8 @@
 	margin-right: auto;
     text-align: center;
     border: solid;
-    background-color:rebeccapurple;
+    background-color: rgb(189, 62, 189);
+
     margin-bottom: 30px;
     border-radius:15px;
     padding-bottom: 20px;
@@ -84,7 +86,8 @@
 	margin-right: auto;
     text-align: center;
     border: solid;
-    background-color: rgb(15,12,15);
+    background-color: rgb(133, 60, 207);
+
     border-radius:15px;
     animation: glowing 1500ms infinite;
     cursor: pointer;
