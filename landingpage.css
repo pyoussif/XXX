@@ -42,8 +42,8 @@
 
 @keyframes glowing {
   0% { box-shadow: 0 0 -10px #c4a300; }
-  40% { box-shadow: 0 0 30px #be00c4; }
-  60% { box-shadow: 0 0 30px #c4a300; }
+  40% { box-shadow: 0 0 40px #be00c4; }
+  60% { box-shadow: 0 0 40px #c4a300; }
   100% { box-shadow: 0 0 -10px #c4a300; }
 }
 
