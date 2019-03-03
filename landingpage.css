@@ -35,7 +35,7 @@
     margin-bottom: 30px;
     border-radius:15px;
     padding-bottom: 32px;
-    animation: glowing 2500ms infinite;
+    animation: glowing 2000ms infinite;
     cursor: pointer;
 
 }
@@ -69,7 +69,7 @@
     border-radius:15px;
     padding-bottom: 20px;
     padding-top: 20px;
-    animation: glowing 2500ms infinite;
+    animation: glowing 2000ms infinite;
     cursor: pointer;
 
 
@@ -86,7 +86,7 @@
     border: solid;
     background-color: rgb(15,12,15);
     border-radius:15px;
-    animation: glowing 2500ms infinite;
+    animation: glowing 2000ms infinite;
     cursor: pointer;
 
 }
