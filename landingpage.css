@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+* { box-sizing: border-box; }
+
+.headerme{
+	position: relative;
+	top: 0;
+	width: 100%;
+	font-family: 'Franklin Gothic Medium','Anton', 'Open Sans', 'Open Sans', Arial, sans-serif;
+    z-index: 6;
+    margin-top: 100px;
+}
+
+.logopicupper {
+	width: 350px;
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    border-radius:15px;
+}
+
+.tease {
+	width: 400px;
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+    border: solid;
+    background-color: rgb(198,50,198);
+    margin-bottom: 30px;
+    border-radius:15px;
+    padding-bottom: 32px;
+    animation: glowing 2500ms infinite;
+    cursor: pointer;
+
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 -10px #c4a300; }
+  40% { box-shadow: 0 0 30px #be00c4; }
+  60% { box-shadow: 0 0 30px #c4a300; }
+  100% { box-shadow: 0 0 -10px #c4a300; }
+}
+
+#tease {
+    width: 600px;
+    height:200px;
+}
+
+#lick {
+    height:100px;
+}
+
+.dirty {
+	width: 400px;
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    border: solid;
+    background-color:rebeccapurple;
+    margin-bottom: 30px;
+    border-radius:15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    animation: glowing 2500ms infinite;
+    cursor: pointer;
+
+
+
+}
+
+.strip {
+    width: 400px;
+	height: 250px;  
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    border: solid;
+    background-color: rgb(15,12,15);
+    border-radius:15px;
+    animation: glowing 2500ms infinite;
+    cursor: pointer;
+
+}
+
+#strip {
+    height: 100px;
+}
+
+
+
+
+.logopicupper2 {
+					width: 130px;
+					height: 80px;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+                    text-align: center;
+                    margin-top: -30px;
+                    margin-bottom: 20px;
+                                  }
+                                  
+header {
+	background: rgb(165,45,165) radial-gradient(125% 150%, rgb(25,21,25), black);
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 4px solid black;
+    z-index: 100;
+}
+
+  a {
+	color: whitesmoke;
+	text-decoration: none;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: rgb(39,4,85);
+}
+
+#logo{
+	float: left;
+	width: 300px;
+	height: 60px;
+	background: url(../img/logo.png) no-repeat center;
+	display: block;
+
+}
+img {
+    margin-top: 10px;  
+    max-width: 260px;
+      max-height: 100%;
+      height: auto;
+  }
+
+nav {
+	float: right;
+	padding: 20px;	
+}
+
+#menu-icon {
+	display: hidden;
+	width: 30px;
+	height: 40px;
+    transition: all .2s ease-in-out;
+}
+  
+a:hover#menu-icon {
+	background-color: rgb(25,21,25);
+    border-radius: 4px 4px 0 0;
+    transform: scale(1.5);
+}
+
+ul {
+
+    list-style: none;
+    margin-top: -6.5px;
+}
+
+li {
+	display: inline-block;
+	float: none;
+    padding: 10px;
+    font-family: 'Impact', 'Franklin Gothic Medium', 'Anton', 'Open Sans', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.teaseme {
+    font-size: 20px;
+}
+.teaseme:hover {
+    font-size: 140%;  
+}
+
+.dirtydice {
+    font-size: 20px;
+}
+.dirtydice:hover {
+    font-size: 140%;
+}
+
+.contact {
+    color: rgb(255, 0, 170);
+}
+.contact:hover {
+    font-size: 140%;
+}
+
+.current {
+	color: whitesmoke;
+}
+.btn {
+	margin-bottom: 16px;
+	padding: 8px 24px;
+	background-color: rgb(236, 20, 20);
+	border: 1px solid rgb(179, 4, 4);
+	border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	cursor: pointer;
+	-webkit-transition: background 0.3s, color 0.3s;
+	transition: background 0.3s, color 0.3s;
+	font-family: unset;
+}
+
+.btn--hit {
+    margin-right: 16px;
+    background-color: green;
+    border: 5px solid rgb(2, 80, 2);
+    font-weight: bold; 
+}
+
+.btn:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+.container {
+    position: fixed;
+    margin-top: 10px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(39, 4, 85);
+    overflow-y: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(39, 4, 85);
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+}
+  .footer {
+	  position: relative;
+	  left: 0px;
+	  bottom: -10px;
+	  width: 100%;
+	  color: white;
+	  text-align: center;
+	  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	  
+	  
+	}
+
+@media only screen and (max-width: 700px) {
+	
+
+#logo {
+    margin-top: 5px;  
+    max-width: 300px;
+      max-height: 100%;
+      height: auto;
+  }
+	#menu-icon {
+	display:inline-block;
+	}
+
+      .bar {
+    width: 40px;
+    height: 8px;
+    background: #fff;
+    box-shadow: 1px 1px 3px RGBa(0, 0, 0, 0.4);
+    border-radius: 2px;
+    transition: 0.4s ease;
+    padding-bottom:1px;
+    margin-top: 5px;
+    }
+
+	nav ul, nav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: rgb(22,17,22);
+		border: 5px solid rgb(235,234,237);
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav:hover ul {
+display: block;
+    }
+
+
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+}
+}
