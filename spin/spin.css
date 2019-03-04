@@ -1,0 +1,95 @@
+html, body {
+  width:50%;
+  margin:auto;
+}
+
+.bottle {
+	 position: absolute;
+	 background-image: url("https://i.pinimg.com/originals/bd/51/c5/bd51c519a9a60165239b1fa6c3e7998e.png");
+	 width: 263px;
+   height: 263px;
+   margin:auto;
+}
+ .rotate {
+	 animation-name: animationRotation;
+	 animation-duration: 1s;
+	 animation-timing-function: linear;
+	 animation-delay: 0s;
+	 animation-iteration-count: infinite;
+	 animation-direction: normal;
+	 animation-play-state: paused;
+}
+ @keyframes animationRotation {
+	 0% {
+		 transform: rotate(0deg);
+	}
+	 100% {
+		 transform: rotate(360deg);
+	}
+}
+ .circle-container {
+	 width: 400px;
+	 height: 400px;
+	 position: relative;
+	 padding: 0;
+}
+ .circle-container li {
+	 width: 5em;
+	 height: 5em;
+	 margin: -2.5em;
+}
+ .circle-container li:nth-of-type(1) {
+	 transform: rotate(-90deg) translate(200px) rotate(90deg);
+}
+ .circle-container li:nth-of-type(2) {
+	 transform: rotate(-18deg) translate(200px) rotate(18deg);
+}
+ .circle-container li:nth-of-type(3) {
+	 transform: rotate(54deg) translate(200px) rotate(-54deg);
+}
+ .circle-container li:nth-of-type(4) {
+	 transform: rotate(126deg) translate(200px) rotate(-126deg);
+}
+ .circle-container li:nth-of-type(5) {
+	 transform: rotate(198deg) translate(200px) rotate(-198deg);
+}
+ .circle-container li {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 font-size: 2em;
+}
+ #alert {
+	 opacity: 0;
+	 position: absolute;
+	 z-index: 1000;
+	 width: 300px;
+	 height: 200px;
+	 padding: 40px 0 0 0;
+	 background: #fb1;
+	 pointer-events: none;
+	 font-size: 1.8em;
+	 text-align: center;
+	 line-height: 60px;
+	 transition: opacity 0.8s;
+	 transition-property: opacity;
+	 transition-duration: 0.8;
+	 transition-timing-function: linear;
+	 transition-delay: 0.2s;
+}
+ * {
+	 box-sizing: border-box;
+}
+ html, body {
+	 height: 100%;
+}
+ body {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 font-family: verdana;
+}
+ 

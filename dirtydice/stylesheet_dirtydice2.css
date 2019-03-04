@@ -76,8 +76,8 @@ body {
   }
   
   #cube div {
-    border:2px solid rgb(238, 82, 238);
-    border-radius:50px;
+    border:2px solid rgb(102, 51, 153);
+    border-radius: 50px;
     width:198px;
     height:198px;
     position:absolute;
@@ -191,7 +191,7 @@ body {
   
   #cube2 div {
     margin:50px auto;
-    border:2px solid rgb(238, 82, 238);
+    border:2px solid rgb(102, 51, 153);
     border-radius:50px;
     width:198px;
     height:198px;
