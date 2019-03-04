@@ -263,8 +263,8 @@ p {
 		display: none;
 		position: absolute;
 		padding: 20px;
-		background: rgb(165,45,165);
-		border: 5px solid rgb(39,4,85);
+		background: rgb(25, 5, 25);
+		border: 5px solid rgb(235, 230, 241);
 		right: 20px;
 		top: 60px;
 		width: 50%;
@@ -319,8 +319,8 @@ p {
 		display: none;
 		position: absolute;
 		padding: 20px;
-		background: rgb(165,45,165);
-		border: 5px solid rgb(39,4,85);
+		background: rgb(25, 21, 25);
+		border: 5px solid rgb(235, 230, 241);
 		right: 20px;
 		top: 60px;
 		width: 50%;
