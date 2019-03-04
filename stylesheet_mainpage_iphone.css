@@ -302,9 +302,7 @@ img {
 }
 
 body {
-    background:
-     rgb(165, 48, 165)
-	 radial-gradient(75% 150%, rgb(83,0,151), black);
+    background-color: #2a2a2a;
 	font-family: 'Impact', 'Franklin Gothic Medium', 'Open Sans', 'Arial Narrow', Arial, sans-serif;
 
     }
@@ -619,7 +617,7 @@ p {
 		right: 20px;
 		top: 60px;
 		width: 50%;
-		border-radius: 4px 0 4px 4px;
+		border-radius: 50px 0 50px 50px;
 
 	}
 
@@ -668,7 +666,7 @@ p {
 		right: 20px;
 		top: 60px;
 		width: 50%;
-		border-radius: 4px 0 4px 4px;
+		border-radius: 50px 0 50px 50px;
 
 	}
 

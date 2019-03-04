@@ -5,9 +5,7 @@
 
 
 body {
-    background:
-        rgb(39, 4, 85)
-        radial-gradient(50% 100%, rgb(39,4,85), black);
+	background: rebeccapurple;
 }
 
 
@@ -19,7 +17,8 @@ body {
 	height: 50%;
 	font-family: 'Franklin Gothic Medium','Anton', 'Open Sans', 'Open Sans', Arial, sans-serif;
     z-index: 6;
-    margin-top: 100px;
+	margin-top: 100px;
+	text-align:center;
 }
 
 .logopicupper {
@@ -87,7 +86,7 @@ img {
 
 header {
 
-	background: rgb(165,45,165) radial-gradient(125% 150%, rgb(165,45,165), black);
+	background: rgb(25,21,25);
 
 	width: 100%;
 	height: 76px;
@@ -269,7 +268,7 @@ p {
 		right: 20px;
 		top: 60px;
 		width: 50%;
-		border-radius: 4px 0 4px 4px;
+		border-radius: 50px 0 50px 50px;
 
 	}
 
@@ -325,7 +324,7 @@ p {
 		right: 20px;
 		top: 60px;
 		width: 50%;
-		border-radius: 4px 0 4px 4px;
+		border-radius: 50px 0 50px 50px;
 
 	}
 

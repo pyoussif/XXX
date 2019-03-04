@@ -19,9 +19,7 @@ html, body, h1, h2, h3, h4, h5, ul, li, figure, p, iframe {
 
 
 body {
-    background:
-        rgb(39, 4, 85)
-        radial-gradient(75% 150%, rgb(83,0,151), black);
+    background: rebeccapurple;
 }
 
 
@@ -423,7 +421,7 @@ p {
 		right: 20px;
 		top: 60px;
 		width: 50%;
-		border-radius: 4px 0 4px 4px;
+		border-radius: 50px 0 50px 50px;
 
 	}
 
@@ -472,7 +470,7 @@ p {
 		right: 20px;
 		top: 60px;
 		width: 50%;
-		border-radius: 4px 0 4px 4px;
+		border-radius:50px 0 50px 50px;
 
 	}
 
