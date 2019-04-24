@@ -256,6 +256,8 @@ header {
 	left: 0;
 	border-bottom: 4px solid black;
     z-index: 100;
+    padding-right: 12em;
+    padding-left: 12em;
             
 
 
@@ -383,12 +385,23 @@ p {
     margin: 1px auto;
     height: auto;
 }
-@media only screen and (max-width: 700px) {
+
+@media only screen and (max-width: 1600px) {
+
+header {
+    padding-right: 5em;
+    padding-left: 5em;
+    }
+
+@media only screen and (max-width: 900px) {
 
 
 	header {
 
-		position: absolute;
+        position: absolute;
+        padding-right: 0em;
+        padding-left: 0em;
+    }
 
 	}
 
@@ -440,7 +453,7 @@ p {
     }}
 
 
-@media only screen and (max-device-width: 699px) {
+@media only screen and (max-device-width: 300px) {
 
 
 
@@ -450,7 +463,8 @@ p {
 	header {
 
 		position: absolute;
-
+        padding-right: 0em;
+        padding-left: 0em;
 	}
 
 	#menu-icon {

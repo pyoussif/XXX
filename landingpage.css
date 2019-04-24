@@ -122,6 +122,8 @@ header {
 	left: 0;
 	border-bottom: 4px solid black;
     z-index: 100;
+    padding-right: 12em;
+    padding-left: 12em;
 }
 
   a {
@@ -268,8 +270,20 @@ body {
 	  
 	}
 
-@media only screen and (max-width: 700px) {
-	
+@media only screen and (max-width: 1600px) {
+
+header {
+    padding-right: 5em;
+    padding-left: 5em;
+    }
+
+
+@media only screen and (max-width: 1180px) {
+
+header {
+    padding-right: 0em;
+    padding-left: 0em;
+    }
 
 #logo {
     margin-top: 5px;  
@@ -322,4 +336,4 @@ display: block;
     height: 40px;
     margin-top: -20px;
 }
-}
+}}

@@ -466,7 +466,8 @@ img {
 	left: 0;
 	border-bottom: 4px solid black;
     z-index: 100;
-            
+    padding-right: 12em;
+    padding-left: 12em;
 
 
 }
@@ -579,16 +580,18 @@ p {
 }
 
 
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1400px) {
 
 
 	#header {
 
 		position: absolute;
-
+		padding-right: 0em;
+    	padding-left: 0em;
 	}
-
+	#logo {
+		width: 240px;
+	}
 	#menu-icon {
 
 		display:inline-block;
@@ -647,7 +650,8 @@ p {
 	#header {
 
 		position: absolute;
-
+padding-right: 0em;
+    	padding-left: 0em;
 	}
 
 	#menu-icon {
@@ -687,7 +691,12 @@ p {
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
   @media screen and (max-width: 500px) {
-    .headerme a {
+	header {
+		padding-right: 0em;
+    	padding-left: 0em;
+	}
+	
+	.headerme a {
       float: none;
       display: block;
       text-align: left;
@@ -752,6 +761,7 @@ p {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	z-index: 6;
 	margin-bottom:-30px;
+	
 	
 	
 }
