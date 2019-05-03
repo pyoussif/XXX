@@ -39,7 +39,7 @@
         content="Naughty mobile sex games to play with your lover or lovers. Play Tease Me, Dirty Dice and Strip the Dealer now!">
     <meta name="keywords"
         content="Dirty Games, Naughty Games, Sex Games, Sex, Mobile Apps, XXX, Naughty Apps, Dirty Apps">
-    <link rel="stylesheet" type="text/css" href="stylesheet_mainpage_iphone.css" />
+    <link rel="stylesheet" type="text/css" href="vibrate.css/>
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 </head>
@@ -64,7 +64,26 @@
         </header>
     </div>
     
-    <button id="buttonPattern" onclick="startPattern()">Start Timer</button>
+    <center>
+        <h1 id="output"><b>00:00:00:00</b></h1>
+    </center>
+    
+    <center>
+        <div id="controls">
+    
+            <button id="begin" onclick="begin()">
+                <div id="start">START</div>
+            </button>
+    
+            <button onclick="reset()" id="reset">RESET</button>
+        </div>
+    </center>
+    <center>
+        <button id="lap" onclick="noteLap()">Lap</button>
+    </center>
+
+    <button id="buttonPattern" onclick="startPattern()">6 seconds</button>
+    <button id="buttonPattern" onclick="example2()">Ongoing</button>
 
     <script src="vibrate.js"></script>
 </body>
