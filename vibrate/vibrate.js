@@ -5,9 +5,10 @@ function startPattern() {
   navigator.vibrate([500, 250, 500, 250, 500, 250, 500, 250, 500, 250, 500]);
 }
 
-function example2() {
-    // For a single value you can pass in a Number rather than an Array
-    navigator.vibrate(500);
+function stopVibrations() {
+    // You can also stop an ongoing vibration pattern by specifying a vibration
+    // length of zero.
+    navigator.vibrate(0);
 }
 
 
